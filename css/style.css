@@ -17,6 +17,7 @@ header{
 .header-pretitle{
 	font-size: 18px;
 	margin-top: 102px;
+
 	
 }
 .header-title{
@@ -41,9 +42,22 @@ header{
 	font-weight: 700;
 	padding:17px 55px ;
 	margin-top: 33px;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	
 }
+.header-button a{
+text-decoration: none;
+}
+
 .header-button:hover{
 	box-shadow: 10px 17px 34px 6px rgba(0, 0, 139, 0.83);
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	background-color: #3a7dfd;
+	color: #fff;
 }
 header small{
 	font-size: 12px;
@@ -143,10 +157,14 @@ footer{
 	display: inline-block;
 	margin-left: 13px;
 	margin-right: 13px;
+	
 
 }
 .social-block a:hover{
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 .footer-col-3{
@@ -165,19 +183,54 @@ footer{
 	font-size: 18px;
 	color: #deedfe;
 }
+.footer-button:hover{
+	background-color: #fff;
+	color: #3a7dfd;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+.footer-button a{
+	text-decoration: none;
+}
 .social-block p{
 	margin-bottom: 21px;
 }
+.footer-col-1{
+	margin-bottom: 2px;
+	margin-top: 10px;
+}
+.footer-col-3{
+	margin-top: 20px;
+}
+header small{
+	margin-bottom: 10px;
+}
+.portfilio-col-1{
+	margin-bottom: 50px;
+}
+.button-img img{
+	margin: -15% 5% 4% 90%;
+	display: inline-block;
+}
+
 @media (max-width: 1200px){
 	.header-pretitle{
 		margin-top: 60px;
 	}
+	.button-img img{
+	margin: -30% 10% 7% 90%;
+}
 }
 @media (max-width: 992px){
 	.header-img2{
 		display: none;
 		margin-top: 10px;
 	}
+		.button-img img{
+	margin: -40% 10% 8% 90%;
+	display: inline-block;
+}
 	.footer-title{
 		font-style: 18px;
 	}
@@ -200,6 +253,12 @@ footer{
 		display: none;
 		
 	}
+	.button-top{
+
+	margin: -15% 5% 10% 90%;
+	display: inline-block;
+	
+}
 }
 @media (max-width: 768px){
 	.portfilio-col-1{
@@ -208,6 +267,7 @@ footer{
 		margin-bottom: 20px;
 		margin-top: 20px;
 	}
+	
 	.portfilio-col-2{
 		padding-left: 20px;
 		padding-right: 20px;
@@ -222,24 +282,8 @@ footer{
 	.button-top{
 		display: none;
 	}
-}
-.footer-col-1{
-	margin-bottom: 2px;
-	margin-top: 10px;
-}
-.footer-col-3{
-	margin-top: 20px;
-}
-header small{
-	margin-bottom: 10px;
-}
-.portfilio-col-1{
-	margin-bottom: 50px;
-}
-.button-top{
-
-	margin: -15% 5% 3% 90%;
-	display: inline-block;
+	.button-img img{
+	display: none;
 	
 }
 }
